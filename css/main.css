@@ -1,0 +1,38 @@
+.portfolio-space {
+text-align: center;
+}
+.mouse-hole {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+.center-nav {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+.button-padding {
+  margin-top: 15px;
+}
+
+hr.star-primary {
+  margin: 25px auto 30px;
+  padding: 0;
+  max-width: auto;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center;
+}
+
+.mighty {
+  font-size: 30px;
+  text-align: center;
+}
+.portfolio {
+  height: 50%;
+}
+.port-item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
