@@ -7,7 +7,7 @@ const resumeWebsite = everydayResume.map((resume) => {
 
     mainArticle.innerHTML = `    
   <header>
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar-inverse">
   <div class="container-fluid">
   <div class="navbar-header button-padding">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
@@ -16,7 +16,7 @@ const resumeWebsite = everydayResume.map((resume) => {
       <span class="icon-bar"></span>
     </button>
       <a href="#about"><img class="img-circle img-responsive mouse-hole" src=${resume.logo}></a>
-  </div>
+  </div> 
   <div class="collapse navbar-collapse" id="navMenu">
     <ul class="center-nav nav navbar-nav navbar-right">
       <li class="active"><a href="#about">About</a></li>
