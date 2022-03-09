@@ -31,8 +31,27 @@ hr.star-primary {
   height: 50%;
 }
 .port-item {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   margin: auto;
 }
+div.cSize {
+width: 70%; /* for example */
+display: flex;
+margin-left: auto;
+margin-right: auto;
+margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+ div.cSize {
+   display: none
+ } 
+}
+
+@media only screen and (min-width: 768px) {
+  .port-item {
+    display: none
+  } 
+ }

@@ -106,7 +106,6 @@ const resumeWebsite = everydayResume.map((resume) => {
               </div>
             <hr class="star-primary col-xs-4 col-md-5">
       <div class="col-xs-12 col-md-12">
-        <h1 text-align="center" id="Portfolio-title">Portfolio</h1>
       <div class="port-item col-xs-12 col-md-6">
         <img class="img-responsive portfolio-item" src="pictures/responsive-web-design.png" alt="">
       </div>
@@ -122,13 +121,62 @@ const resumeWebsite = everydayResume.map((resume) => {
         <img class="img-responsive portfolio-item" src="pictures/Gitcertificate_1641598581386.png" alt="">
       </div>
       </div>
+
+      <div class="cSize">  
+      <div id="carousel-example-generic" class="carousel slide col-md-10 cSize" data-ride="carousel">
+  <!-- Indicators -->
+  
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="pictures/responsive-web-design.png" alt="...">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="pictures/HTMLadvanced.png" alt="...">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="pictures/CSScertificate.png" alt="...">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="pictures/Gitcertificate_1641598581386.png" alt="...">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+  </div>
+  
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  </div>
         <hr class="star-primary col-xs-4 col-md-5">
           <div class="col-xs-4 col-md-2 mighty">
             <p><bolder>&lt/&gt</bolder></p>
           </div>
           <hr class="star-primary col-xs-4 col-md-5">
       </div>
-    </div>`;
+    </div>
+    `
+
+    
+    ;
 
     return mainArticle;
 });
