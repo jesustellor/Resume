@@ -4,7 +4,7 @@ const myResume = new Resume(
 "resume1",
 "Jesus Tello / Developer",
 "Jesus Tello",
-"../pictures/speedy-avatar.jpg",
+"../pictures/logo.png",
 "add here",
 "add 2 here",
 "add 3 here",
