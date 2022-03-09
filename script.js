@@ -30,8 +30,8 @@ const resumeWebsite = everydayResume.map((resume) => {
 
     <div class="container-fluid">
       <div class="container">
-        <div class="col-xs-12 col-md-10 text-center">
-          <h1 class="text-center">Jesus Tello</h1>
+        <div class="col-xs-12 col-md-10">
+          <h1>Jesus Tello</h1>
           <p>Welcome to my portfolio. My name is Jesus and I have over 6 years of experience in Information Technology,
              ranging from help desk troubleshooting to network support. Strong technical knowledge
              of computer hardware and software, including identifying and troubleshooting motherboard,
@@ -42,7 +42,7 @@ const resumeWebsite = everydayResume.map((resume) => {
           </p>
         </div>
         <div class="col-xs-12 col-md-2">
-          <img class="img-responsive img-circle portfolio" src="pictures/codecamp.jpg" alt="Picture of Me">
+          <img class="img-responsive portfolio" src="pictures/codecamp.jpg" alt="Picture of Me">
         </div>
         <div class="col-xs-12 col-md-12">
           <h2 id="about">Technical Skills</h2>
