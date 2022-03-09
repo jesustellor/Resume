@@ -44,7 +44,7 @@ const resumeWebsite = everydayResume.map((resume) => {
           <div class="col-md-2">
             <img class="img-responsive portfolio" src="pictures/codecamp.jpg" alt="Picture of Me">
           </div>
-          <div class="">
+          <div class="" id="Portfolio-title">
             <h2 id="about">Technical Skills</h2>
           </div>
           <div class="col-md-4">
