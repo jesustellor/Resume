@@ -28,7 +28,7 @@ const resumeWebsite = everydayResume.map((resume) => {
    </nav>
       </header>
   
-      <div class="container-fluid">
+      <div class="">
         <div class="">
           <div class="col-xs-12 col-md-10">
             <h1>Jesus Tello</h1>
