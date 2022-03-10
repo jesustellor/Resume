@@ -3,6 +3,7 @@ text-align: center;
 }
 
 #logoStyle {
+  transform: scaleY(-1);
   width: 75px;
 }
 .center-nav {
