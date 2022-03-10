@@ -38,7 +38,7 @@ const resumeWebsite = everydayResume.map((resume) => {
             CPU, hard disk system, and BIOS issues. Expertise in maintenance of network hardware and software,
             monitoring network to ensure network availability to all system users Skilled in network support
             and client server. Knowledgeable of business management practices with exceptional customer-focused approach.
-            Committed to self-education to stay current with changing technologies.
+            Committed to self-education to stay current with changing technologies. <a href="tel:6194803078">Contact Me</a>
           </p>
         </div> 
 
