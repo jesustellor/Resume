@@ -2,6 +2,35 @@
 /* html {
   scroll-behavior: smooth;
 } */
+/* Style the active class (and buttons on mouse-over) */
+
+.carousel-control {
+  margin-right: -11%;
+  margin-left:  -11%;
+}
+
+.glyphicon-hand-right {
+  color: rgb(26, 103, 219);
+  padding-top: 250%;
+  font-size: 70px;
+}
+.glyphicon-hand-left {
+  padding-top: 250%;
+  color: rgb(26, 103, 219);
+  font-size: 70px;
+}
+
+.nav{
+  
+  display:flex;
+  justify-content: space-between;
+}
+
+ul li{
+  
+  list-style: none;
+}
+
 .portfolio-space {
 text-align: center;
 }

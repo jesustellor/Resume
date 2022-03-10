@@ -6,27 +6,27 @@ const resumeWebsite = everydayResume.map((resume) => {
     mainArticle.setAttribute("id", resume.id)
 
     mainArticle.innerHTML = `    
-    <header>
-    <nav class="navbar-inverse">
+<header>
+  <nav class="navbar-inverse">
     <div class="container-fluid">
-    <div class="navbar-header button-padding">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <div class="navbar-header button-padding">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <img id="logoStyle" class="img-responsive" src=${resume.logo}>
-    </div> 
-    <div class="collapse navbar-collapse" id="navMenu">
-      <ul class="center-nav nav navbar-nav navbar-right">
-        <li class="active"><a href="#about">About</a></li>
-        <li><a href="#Portfolio-title">Certificates</a></li>
-        <li><a href="tel:6194803078">Contact Me</a></li>
-      </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="center-nav nav navbar-nav navbar-right">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Portfolio-title">Certificates</a></li>
+          <li><a href="tel:6194803078">Contact Me</a></li>
+        </ul>
+      </div>
     </div>
-   </div>
-   </nav>
-      </header>
+  </nav>
+</header>
   
       <div class="container-fluid">
       <div class="">
@@ -168,11 +168,11 @@ const resumeWebsite = everydayResume.map((resume) => {
     
           <!-- Controls -->
           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
           <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
@@ -187,12 +187,15 @@ const resumeWebsite = everydayResume.map((resume) => {
     </div>
     </div>
     `
+    ;
+    
+
 
     
-    ;
-
     return mainArticle;
 });
+
+
 
 const main = document.querySelector("body");
 
