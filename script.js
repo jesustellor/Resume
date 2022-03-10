@@ -30,7 +30,7 @@ const resumeWebsite = everydayResume.map((resume) => {
   
       <div class="container-fluid">
       <div class="">
-        <div class="">
+        <div class="col-xs-12 col-md-10">
           <h1>Jesus Tello</h1>
           <p>Welcome to my portfolio. My name is Jesus and I have over 6 years of experience in Information Technology,
             ranging from help desk troubleshooting to network support. Strong technical knowledge
@@ -38,9 +38,9 @@ const resumeWebsite = everydayResume.map((resume) => {
             CPU, hard disk system, and BIOS issues. Expertise in maintenance of network hardware and software,
             monitoring network to ensure network availability to all system users Skilled in network support
             and client server. Knowledgeable of business management practices with exceptional customer-focused approach.
-            Committed to self-education to stay current with changing technologies. <a href="tel:6194803078" target="_system">Contact Me</a>
+            Committed to self-education to stay current with changing technologies.
           </p>
-        </div>
+        </div> <a href="tel:6194803078">Contact Me</a>
         <div class="col-md-2">
           <img class="img-responsive portfolio" src="pictures/codecamp.jpg" alt="Picture of Me">
         </div>
