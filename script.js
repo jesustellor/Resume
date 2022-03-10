@@ -15,12 +15,12 @@ const resumeWebsite = everydayResume.map((resume) => {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a href="#about"><img class="img-circle img-responsive mouse-hole" src=${resume.logo}></a>
+        <a href="#about"><img id="logoStyle" class="img-responsive" src=${resume.logo}></a>
     </div> 
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="center-nav nav navbar-nav navbar-right">
         <li class="active"><a href="#about">About</a></li>
-        <li><a href="#Portfolio-title">Portfolio</a></li>
+        <li><a href="#Portfolio-title">Certificates</a></li>
         <li><a href="tel:6194803078">Contact Me</a></li>
       </ul>
     </div>
@@ -44,7 +44,7 @@ const resumeWebsite = everydayResume.map((resume) => {
           <div class="col-md-2">
             <img class="img-responsive portfolio" src="pictures/codecamp.jpg" alt="Picture of Me">
           </div>
-          <div class="" id="Portfolio-title">
+          <div class="">
             <h2 id="about">Technical Skills</h2>
           </div>
           <div class="col-md-4">
@@ -109,6 +109,7 @@ const resumeWebsite = everydayResume.map((resume) => {
                 </div>
               <hr class="star-primary col-xs-4 col-md-5">
         <div class="col-xs-12 col-md-12">
+          <h1 class="mighty" id="Portfolio-title">Certificates</h1>
         <div class="port-item col-xs-12 col-md-6">
           <img class="img-responsive portfolio-item" src="pictures/responsive-web-design.png" alt="">
         </div>
