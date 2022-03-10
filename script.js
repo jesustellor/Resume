@@ -29,7 +29,7 @@ const resumeWebsite = everydayResume.map((resume) => {
       </header>
   
       <div class="container-fluid">
-        <div class="container">
+        <div class="">
           <div class="col-xs-12 col-md-10">
             <h1>Jesus Tello</h1>
             <p>Welcome to my portfolio. My name is Jesus and I have over 6 years of experience in Information Technology,
@@ -45,7 +45,6 @@ const resumeWebsite = everydayResume.map((resume) => {
             <img class="img-responsive portfolio" src="pictures/codecamp.jpg" alt="Picture of Me">
           </div>
           <div class="">
-          <a href="tel:6194803078">Contact Me</a>
             <h2 id="about">Technical Skills</h2>
           </div>
           <div class="col-md-4">
