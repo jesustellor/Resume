@@ -51,12 +51,12 @@ const resumeWebsite = everydayResume.map((resume) => {
             <ul>
             <li>List Of Recent Certificates:</li>
             <li>Responsive Web Desing</li>
-            <li>Programming Hub: HTML5 Advanced</li>
-            <li>Programming Hub: CSS3</li>
+            <li>Programming Hub: Advanced HTML/HTML5</li>
+            <li>Programming Hub: CSS/CSS3</li>
             <li>Programming Hub: Git</li>
             <li>Programming Hub: Blockchain</li>
             <li>Programming Hub: Java</li>
-            <li>Programming Hub: Javascript6 Advanced</li>
+            <li>Programming Hub: Advanced JavaScript (ES6)</li>
             </ul>
           </div>
           <div class="col-md-4">
