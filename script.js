@@ -15,7 +15,7 @@ const resumeWebsite = everydayResume.map((resume) => {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a href="#about"><img id="logoStyle" class="img-responsive" src=${resume.logo}></a>
+        <img id="logoStyle" class="img-responsive" src=${resume.logo}>
     </div> 
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="center-nav nav navbar-nav navbar-right">
