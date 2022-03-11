@@ -30,11 +30,14 @@ nav {
   margin-bottom: 10px;
 }
 .nav {
+  color: #9d9d9d;
+  padding-top: 15px;
   position: fixed;
-  right: 2%;
+  right: 10%;
   top: 0;
-  margin-right: 100000px;
 }
+
+
 ul li{ 
   list-style: none;
 }
@@ -50,7 +53,6 @@ text-align: center;
 .center-nav {
   font-size: 20px;
   font-weight: bolder;
-  padding-top: 20px;
 }
 
 hr.star-primary {
@@ -99,7 +101,7 @@ margin: auto;
   display: flex;
   flex-direction: row;
   align-content: space-between;
-  gap: 10%;
+  gap: 8%;
 }
 .topToBottom {
   display: flex;
@@ -107,6 +109,12 @@ margin: auto;
 }
 .navContentSpacing {
   margin-top: 8%;
+}
+#noWrap {
+  white-space: nowrap;
+}
+.nav>li>a {
+  color: #9d9d9d;
 }
 
 @media only screen and (max-width: 768px) {
@@ -127,6 +135,11 @@ margin: auto;
 .navContentSpacing {
   margin-top: 20%;
 }
+.nav {
+  left: 2%;
+  top: 0;
+}
+
 }
 
 

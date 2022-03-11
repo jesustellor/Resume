@@ -18,10 +18,10 @@ const resumeWebsite = everydayResume.map((resume) => {
                 <img id="logoStyle" class="img-responsive" src=${resume.logo}>
             </div>
             <div class="collapse navbar-collapse" id="navMenu">
-                <ul class="center-nav nav navbar-nav navbar-right">
+                <ul class="center-nav nav navbar-right sideBySide">
                     <li><a href="#about">About</a></li>
                     <li><a href="#Portfolio-title">Certificates</a></li>
-                    <li><a href="tel:6194803078">Contact Me</a></li>
+                    <li id="noWrap"><a href="tel:6194803078">Contact Me</a></li>
                 </ul>
             </div>
         </div>
