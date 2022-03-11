@@ -138,8 +138,8 @@ margin: auto;
 .nav {
   display: flex;
   flex-direction: row;
-  left: 20%;
-  top: 4%;
+  left: 25%;
+  top: 5%;
   align-content: space-between;
   gap: 0;
   font-size: 100%;
