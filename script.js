@@ -199,9 +199,6 @@ const resumeWebsite = everydayResume.map((resume) => {
     `
     ;
     
-
-
-    
     return mainArticle;
 });
 
