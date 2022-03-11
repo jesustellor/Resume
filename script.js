@@ -9,7 +9,7 @@ const resumeWebsite = everydayResume.map((resume) => {
     <header>
     <nav class="navbar-inverse">
         <div class="container-fluid">
-            <div class="navbar-header button-padding">
+            <div class="button-padding">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -29,63 +29,67 @@ const resumeWebsite = everydayResume.map((resume) => {
 </header>
 
 <div class="container">
-    <div class="sideBySide">
-        <div>
-            <p>
-            <h1>Jesus Tello</br></h1>Welcome to my portfolio. My name is Jesus and I have over 6 years of experience in
-            Information
-            Technology,
-            ranging from help desk troubleshooting to network support. Strong technical knowledge
-            of computer hardware and software, including identifying and troubleshooting motherboard,
-            CPU, hard disk system, and BIOS issues. Expertise in maintenance of network hardware and software,
-            monitoring network to ensure network availability to all system users Skilled in network support
-            and client server. Knowledgeable of business management practices with exceptional customer-focused
-            approach.
-            Committed to self-education to stay current with changing technologies.
+    <div class="sideBySide navContentSpacing">
+        <div class="">
+            <p id="about">
+            <h1>Jesus Tello</h1>
+            </p>
+            <p class="paragraph">
+                Welcome to my portfolio. My name is Jesus and I have over 6 years of experience in Information
+                Technology,
+                ranging from help desk troubleshooting to network support. Strong technical knowledge
+                of computer hardware and software, including identifying and troubleshooting motherboard,
+                CPU, hard disk system, and BIOS issues. Expertise in maintenance of network hardware and software,
+                monitoring network to ensure network availability to all system users Skilled in network support
+                and client server. Knowledgeable of business management practices with exceptional customer-focused
+                approach.
+                Committed to self-education to stay current with changing technologies. <a href="tel:6194803078">Contact Me</a>
             </p>
         </div>
 
-        <div class="col-md-2">
+        <div class="">
             <img class="portfolio" src="pictures/codecamp.jpg" alt="Picture of Me">
         </div>
     </div>
+    <div class="topToBottom">
+        <h2 class="headerSpace">Technical Skills</h2>
+        <div class="sideBySide">
+            <div class="">
+                <ul class="list">
+                    <li>List Of Recent Certificates:</li>
+                    <li>Responsive Web Desing</li>
+                    <li>Programming Hub: Advanced HTML/HTML5</li>
+                    <li>Programming Hub: CSS/CSS3</li>
+                    <li>Programming Hub: Git</li>
+                    <li>Programming Hub: Blockchain</li>
+                    <li>Programming Hub: Java</li>
+                    <li>Programming Hub: Advanced JavaScript (ES6)</li>
+                </ul>
+            </div>
+            <div class="">
+                <ul class="list">
+                    <li>Telephone Communication Systems</li>
+                    <li>Email Applications</li>
+                    <li>Hubs, Routers and Switches</li>
+                    <li>Telnet</li>
+                    <li>DNS</li>
+                    <li>FTP</li>
+                </ul>
+            </div>
+            <div class="">
+                <ul class="list">
+                    <li>Wireless Technical Support</li>
+                    <li>PC Technical Support</li>
+                    <li>IP Addressing</li>
+                    <li>PC Hardware and Software Configuration</li>
+                    <li>Modem Configuration and Installation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <div class="">
-        <h2 id="about">Technical Skills</h2>
-    </div>
-    <div class="col-md-4">
-        <ul>
-            <li>List Of Recent Certificates:</li>
-            <li>Responsive Web Desing</li>
-            <li>Programming Hub: Advanced HTML/HTML5</li>
-            <li>Programming Hub: CSS/CSS3</li>
-            <li>Programming Hub: Git</li>
-            <li>Programming Hub: Blockchain</li>
-            <li>Programming Hub: Java</li>
-            <li>Programming Hub: Advanced JavaScript (ES6)</li>
-        </ul>
-    </div>
-    <div class="col-md-4">
-        <ul>
-            <li>Telephone Communication Systems</li>
-            <li>Email Applications</li>
-            <li>Hubs, Routers and Switches</li>
-            <li>Telnet</li>
-            <li>DNS</li>
-            <li>FTP</li>
-        </ul>
-    </div>
-    <div class="col-md-4">
-        <ul>
-            <li>Wireless Technical Support</li>
-            <li>PC Technical Support</li>
-            <li>IP Addressing</li>
-            <li>PC Hardware and Software Configuration</li>
-            <li>Modem Configuration and Installation</li>
-        </ul>
-    </div>
-    <div class="col-xs-12">
-        <h3>Independent Driver Contractor</h3>
-        <ul>
+        <h3 class="headerSpace">Independent Driver Contractor</h3>
+        <ul class="list">
             <li>Drive privately owned vehicle to transport passengers</li>
             <li>Follow safety regulations/state laws governing vehicle operations and ensure that passengers follow
                 safety
@@ -98,10 +102,10 @@ const resumeWebsite = everydayResume.map((resume) => {
             <li>Read maps and follow written and verbal geographic directions.</li>
         </ul>
 
-        <h3>Computer Support</h3>
+        <h3 class="headerSpace">Computer Support</h3>
         <p>Freelance, San Diego, CA</p>
 
-        <ul>
+        <ul class="list">
             <li>Answear inquiries regarding computer software or hardware operations to resolve problems</li>
             <li>Read technical manuals, conferred with user, conducted computer diagnostics to investigate and
                 resolve
