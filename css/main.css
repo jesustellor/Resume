@@ -46,6 +46,7 @@ text-align: center;
 
 #logoStyle {
   margin-top: 8px;
+  margin-left: -10px;
   transform: scaleY(-1);
   width: 75px;
 }
