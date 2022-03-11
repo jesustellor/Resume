@@ -45,6 +45,7 @@ text-align: center;
 }
 
 #logoStyle {
+  margin-top: 8px;
   transform: scaleY(-1);
   width: 75px;
 }
